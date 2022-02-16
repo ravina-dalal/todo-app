@@ -1,0 +1,47 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 400px;
+    border: 1px solid gray;
+    margin: 40px auto;
+}
+#dlt{
+    cursor: pointer;  
+}
+#plus{
+    float: right;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+
+}
+#inp{
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+#inp:focus{
+    outline: none;
+}
+.complete{
+    text-decoration: line-through;
+    color: gray;
+}
+li{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 2px 3px gray;
+    border-radius: 20px;
+}
+li:nth-of-type(2n+1){
+    background-color: green;
+}
+li:nth-of-type(2n+2){
+    background-color:red;
+}
